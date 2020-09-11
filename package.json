@@ -16,7 +16,7 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
-    "build-css": "node-sass src/ -o src/",
+    "build-css": "node-sass src/ -o src/ --output-style compressed",
     "watch-css": "npm run build-css && node-sass src/ -o src/ --watch --recursive",
     "start": "react-scripts start",
     "build": "react-scripts build",
