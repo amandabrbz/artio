@@ -14,8 +14,9 @@
 - [Getting Started](#getting-started)
   - [Pré requisitos](#Pré-requisitos)
   - [Clonando e inicializando](#Clonando-e-inicializando)
-    - [Modo desenvolvimento](#Modo-desenvolvimento)
-    - [Modo build](#Modo-build)
+    - [Local](#Local)
+- [GitFlow](#GitFlow)
+  - [Processo de Deploy](#Processo-de-deploy)
 - [Layout](#Layout)
 - [Conclusões](#Conclusões)
   - [Aprendizados](#Aprendizados)
@@ -54,6 +55,8 @@ node -v
 
 ### Clonando e inicializando
 
+Esse processo é caso você deseja ver o código na sua máquina.
+
 :small_red_triangle_down: Comandos devem ser digitados pelo terminal
 
 Para clonar o projeto:
@@ -65,7 +68,7 @@ cd artio
 npm install
 ```
 
-#### Modo desenvolvimento
+#### Local
 
 Subir o servidor local:
 
@@ -79,23 +82,14 @@ http://localhost:3000
 
 :no_entry_sign: Caso a porta já esteja sendo utilizada, o próprio terminal avisa.
 
-#### Modo build
+## Gitflow
 
-O modo build consiste na geração estática das páginas, podendo ver rotas e procurar por páginas não localizadas por exemplo.
-
-Subir o servidor:
+### Processo de Deploy
 
 ```sh
-
+npm run build
+netlify deploy --prod
 ```
-
-Após a aplicação inicializar, deve abrir uma aba automaticamente no browser padrão, rodando o projeto na porta ``:``
-
-```sh
-
-```
-
-:no_entry_sign: Caso a porta já esteja sendo utilizada, o próprio terminal avisa.
 
 ## Layout
 
@@ -121,7 +115,13 @@ Layout dado pela empresa e pode ser visto no [Adobe XD](https://xd.adobe.com/vie
 
 <center>
 
-[Github](https://github.com/amandabrbz/artos.git) | [Heroku](https://artios-test.heroku)
+[Github](https://github.com/amandabrbz/artos.git) | [Netlify](https://artio-test.netlify.app)
+
+</center>
+
+<center>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7d83ad59-17cd-41b5-8629-7da70afab002/deploy-status)](https://app.netlify.com/sites/artio-test/deploys)
 </center>
 
 ## Contato

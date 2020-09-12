@@ -25,3 +25,6 @@ yarn-error.log*
 instructions.md
 
 src/components/global/*.css
+
+.netlify
+
