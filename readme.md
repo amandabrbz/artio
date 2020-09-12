@@ -121,7 +121,7 @@ Layout dado pela empresa e pode ser visto no [Adobe XD](https://xd.adobe.com/vie
 
 <center>
 
-[Github](https://github.com/amandabrbz/artos.git) | [Heroku](https://artos.heroku)
+[Github](https://github.com/amandabrbz/artos.git) | [Heroku](https://artios-test.heroku)
 </center>
 
 ## Contato
