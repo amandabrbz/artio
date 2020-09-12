@@ -1,0 +1,25 @@
+@import "./colors.scss";
+
+@mixin border-blue-light {
+  border: 2px solid $light-blue;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+@mixin border-blue-opacity {
+  border: 2px solid $dark-blue;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+@mixin border-error {
+  border: 2px solid $error;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+@mixin border-success {
+  border: 2px solid $success;
+  border-radius: 8px;
+  opacity: 1;
+}
