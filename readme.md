@@ -128,10 +128,11 @@ Layout dado pela empresa e pode ser visto no [Adobe XD](https://xd.adobe.com/vie
 
 Amanda Barboza @ [LinkedIn](https://linkedin/in/amandabrbz)
 
-
 ## Referências
 
-*_comments_*
+[Como criar um campo internacional de telefone](https://baseweb.design/blog/phone-input)
+
+[Como configurar media query global](http://thesassway.com/intermediate/responsive-web-design-in-sass-using-media-queries-in-sass-32)
 
 ### Assets
 

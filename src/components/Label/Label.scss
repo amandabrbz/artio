@@ -1,6 +1,31 @@
+@import "../global/colors.scss";
+
 label {
-  color:#4995B5;
-  font-size: .8rem;
+  font-size: 0.8rem;
   letter-spacing: 0.58px;
   margin: 10px;
+
+  &::selection {
+    background: $medium-blue;
+  }
+
+  &.disabled {
+    color: $dark-blue;
+  }
+
+  &.active{
+    color: $light-blue;
+  }
+
+  &.default {
+    color: $medium-blue;
+  }
+
+  &.error {
+    color: $error;
+  }
+
+  &.success {
+    color: $success;
+  }
 }

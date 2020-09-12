@@ -1,4 +1,11 @@
+@import "../global/mediaQuery.scss";
+
 .Container {
-  width: 36%;
+  width: 70%;
   height: auto;
+
+  @include respond-to(wide-screens) {
+    width: 36%;
+    height: auto;
+  }
 }
