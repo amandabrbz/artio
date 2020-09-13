@@ -287,45 +287,22 @@
 
 .iti-flag {
   width: 20px;
-  &.be {
-    width: 18px;
-  }
-  &.ch {
-    width: 15px;
-  }
-  &.mc {
-    width: 19px;
-  }
-  &.ne {
-    width: 18px;
-  }
-  &.np {
-    width: 13px;
-  }
-  &.va {
-    width: 15px;
-  }
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min--moz-device-pixel-ratio: 2),
-  only screen and (-o-min-device-pixel-ratio: 2 / 1),
-  only screen and (min-device-pixel-ratio: 2),
-  only screen and (min-resolution: 192dpi),
-  only screen and (min-resolution: 2dppx) {
-  .iti-flag {
-    background-size: 5630px 15px;
-  }
-}
-
-.iti-flag {
-  width: 20px;
   height: 15px;
   box-shadow: 0px 0px 1px 0px #888;
   background-image: url("../../../../../node_modules/react-intl-tel-input/dist/flags.png");
   background-repeat: no-repeat;
   background-color: #dbdbdb;
   background-position: 20px 0;
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2 / 1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    background-size: 5630px 15px;
+  }
+
   &.ac {
     height: 10px;
     background-position: 0px 0px;
@@ -407,6 +384,7 @@
     background-position: -418px 0px;
   }
   &.be {
+    width: 18px;
     height: 15px;
     background-position: -440px 0px;
   }
@@ -499,6 +477,7 @@
     background-position: -922px 0px;
   }
   &.ch {
+    width: 15px;
     height: 15px;
     background-position: -944px 0px;
   }
@@ -899,6 +878,7 @@
     background-position: -3117px 0px;
   }
   &.mc {
+    width: 19px;
     height: 15px;
     background-position: -3139px 0px;
   }
@@ -995,6 +975,7 @@
     background-position: -3644px 0px;
   }
   &.ne {
+    width: 18px;
     height: 15px;
     background-position: -3666px 0px;
   }
@@ -1019,6 +1000,7 @@
     background-position: -3774px 0px;
   }
   &.np {
+    width: 13px;
     height: 15px;
     background-position: -3796px 0px;
   }
@@ -1295,6 +1277,7 @@
     background-position: -5285px 0px;
   }
   &.va {
+    width: 15px;
     height: 15px;
     background-position: -5307px 0px;
   }
@@ -1354,15 +1337,13 @@
     height: 10px;
     background-position: -5610px 0px;
   }
-}
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min--moz-device-pixel-ratio: 2),
-  only screen and (-o-min-device-pixel-ratio: 2 / 1),
-  only screen and (min-device-pixel-ratio: 2),
-  only screen and (min-resolution: 192dpi),
-  only screen and (min-resolution: 2dppx) {
-  .iti-flag {
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2 / 1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
     background-image: url("../../../../../node_modules/react-intl-tel-input/dist/flags@2x.png");
     &.np {
       background-color: transparent;
