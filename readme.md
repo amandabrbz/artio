@@ -119,11 +119,6 @@ Layout dado pela empresa e pode ser visto no [Adobe XD](https://xd.adobe.com/vie
 
 </center>
 
-<center>
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7d83ad59-17cd-41b5-8629-7da70afab002/deploy-status)](https://app.netlify.com/sites/artio-test/deploys)
-</center>
-
 ## Contato
 
 Amanda Barboza @ [LinkedIn](https://linkedin/in/amandabrbz)
