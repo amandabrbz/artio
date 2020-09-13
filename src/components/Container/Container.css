@@ -1,8 +1,1 @@
-.Container {
-  width: 70%;
-  height: auto; }
-
-@media only screen and (min-width: 1024px) {
-  .Container {
-    width: 36%;
-    height: auto; } }
+.Container{width:70%;height:auto}@media only screen and (min-width: 1024px){.Container{width:36%;height:auto}}

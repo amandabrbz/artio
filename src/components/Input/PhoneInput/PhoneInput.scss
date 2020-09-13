@@ -1,6 +1,6 @@
-@import "../global/borders.scss";
-@import "../global/colors.scss";
-@import "../global/mediaQuery.scss";
+@import "../../global/borders.scss";
+@import "../../global/colors.scss";
+@import "../../global/mediaQuery.scss";
 
 .intl-tel-input input,
 .intl-tel-input input[type="text"],
@@ -1346,7 +1346,7 @@
   width: 20px;
   height: 15px;
   box-shadow: 0px 0px 1px 0px #888;
-  background-image: url("../../../node_modules/react-intl-tel-input/dist/flags.png");
+  background-image: url("../../../../node_modules/react-intl-tel-input/dist/flags.png");
   background-repeat: no-repeat;
   background-color: #dbdbdb;
   background-position: 20px 0;
@@ -1358,7 +1358,7 @@
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
   .iti-flag {
-    background-image: url("../../../node_modules/react-intl-tel-input/dist/flags@2x.png");
+    background-image: url("../../../../node_modules/react-intl-tel-input/dist/flags@2x.png");
   }
 }
 .iti-flag.np {

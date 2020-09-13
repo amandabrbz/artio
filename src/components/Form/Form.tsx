@@ -1,7 +1,7 @@
 import React from 'react';
 import Label from '../Label/Label'
-import Input from '../Input/Input'
-import Select from '../Select/Select'
+import Input from '../Input/AnyInput/Input'
+import PhoneInput from '../Input/PhoneInput/PhoneInput'
 
 import './Form.css';
 
@@ -19,7 +19,7 @@ function Forms() {
       <fieldset>
         <Label htmlFor="phoneNumber" name="Phone Number" className="default"/>
         <br/>
-        <Select id="phoneNumber"/>
+        <PhoneInput id="phoneNumber"/>
       </fieldset>
       <fieldset>
         <Label htmlFor="example" name="this is an example" className="disabled"/>
