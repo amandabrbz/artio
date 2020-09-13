@@ -3,7 +3,6 @@
 .intl-tel-input input[type="text"],
 .intl-tel-input input[type="tel"] {
   margin-top: 5px !important;
-  margin-bottom: 5px !important;
   background: transparent;
   color: #fff;
   padding: 16px;
@@ -67,7 +66,7 @@
 
 .intl-tel-input .flag-container {
   position: absolute;
-  top: 45%;
+  top: 32%;
   right: 0;
   padding: 1px; }
 
