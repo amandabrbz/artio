@@ -1,7 +1,7 @@
 import React from 'react';
-import Label from '../Label/Label'
-import Input from '../Input/AnyInput/Input'
-import PhoneInput from '../Input/PhoneInput/PhoneInput'
+import Label from './Label/Label'
+import Input from './Input/AnyInput/Input'
+import PhoneInput from './Input/PhoneInput/PhoneInput'
 
 import './Form.css';
 
