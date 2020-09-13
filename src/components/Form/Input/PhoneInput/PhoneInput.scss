@@ -1,5 +1,7 @@
 @import "../../../../global/global.scss";
 
+//css base intl-tel-input + costumed
+
 .intl-tel-input input,
 .intl-tel-input input[type="text"],
 .intl-tel-input input[type="tel"] {
@@ -9,6 +11,10 @@
   color: $white;
   padding: 16px;
   letter-spacing: 1.25px;
+  position: relative;
+  z-index: 0;
+  padding-right: 36px;
+  margin-right: 0;
 
   @include border-blue-medium;
 
@@ -162,15 +168,16 @@
       }
     }
   }
-}
-
-.intl-tel-input input,
-.intl-tel-input input[type="text"],
-.intl-tel-input input[type="tel"] {
-  position: relative;
-  z-index: 0;
-  padding-right: 36px;
-  margin-right: 0;
+  &.iti-container {
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    z-index: 1060;
+    padding: 1px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }
 
 .intl-tel-input .country-list .flag-box,
@@ -249,19 +256,6 @@
 }
 .intl-tel-input.allow-dropdown.separate-dial-code.iti-sdc-5 .selected-flag {
   width: 94px;
-}
-
-.intl-tel-input {
-  &.iti-container {
-    position: absolute;
-    top: -1000px;
-    left: -1000px;
-    z-index: 1060;
-    padding: 1px;
-    &:hover {
-      cursor: pointer;
-    }
-  }
 }
 
 .iti-mobile {
