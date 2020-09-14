@@ -18,6 +18,7 @@
 - [Versionamento](#Versionamento)
   - [Processo de Deploy](#Processo-de-deploy)
 - [Layout](#Layout)
+  - [Ideias](#Ideias)
 - [Conclusões](#Conclusões)
   - [Aprendizados](#Aprendizados)
   - [Dificuldades](#Dificuldades)
@@ -104,18 +105,25 @@ A escolhida foi essa, pois sem se preocupar com rodas comandos o não. Só é ne
 2. Via terminal*
 
 ```node
-npm run build 
+npm run build
 netlify deploy --prod
 ```
 
 *_** É necessário ter instalado o CLI._
-
 
 3. Ou manualmente na ferramenta.
 
 ## Layout
 
 Layout dado pela empresa e pode ser visto no [Adobe XD](https://xd.adobe.com/view/70c2b9dc-81e8-4622-a759-b68c44ec5888-2591/)
+
+### Ideias
+
+_Ideias?_
+
+Para simular um envio e de confirmação, fazer um modal que ocupe metade da tela com a impressão do telefone.
+
+Simular um formulário para complementar a página.
 
 ## Conclusões
 
@@ -147,10 +155,7 @@ E manipulação de *lib*, pois a documentação não estava tão clara e o CSS d
 
 :heavy_plus_sign: Mais react e typescript e testes.
 
-
-
 ## Deploy
-
 
 <center>
 
